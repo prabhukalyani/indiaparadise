@@ -1,0 +1,66 @@
+*{
+margin: 0%;
+padding: 0%;
+font-family: century gothic;
+
+
+}
+header{
+background-image: url('pkp.jpg');
+height:100vh;
+background-size:cover;
+background-position:center;
+position: static;
+
+}
+header .main ul{
+
+list-style-type: none;
+float: right;
+margin-top: 30px;
+height: 40;
+
+}header .main ul li{
+display:inline;
+justify-content: space-between;
+
+
+
+}header .main ul li a{
+
+    text-decoration: none;
+    color: blanchedalmond;
+    margin-inline-end:40px ;
+justify-content: space-between;
+
+transition: 0.6s ease;
+
+
+}header .main ul li a:hover{
+
+background-color: coral;
+color: black;
+
+}header .main .logo img{
+height: 30;
+ margin-left: 40px; 
+ margin-top: 30px;  
+}header .main .information h2{
+    text-align: center;
+
+   margin-bottom: 180px; margin-left: 30px;
+   margin-top: 250px;
+} 
+header .main .information p {
+
+    text-align: center;
+    margin-left: 200;
+    margin-top: -130px;
+   
+}header .main .information h1{
+    text-align: center;
+    margin-left: 200;
+    margin-bottom: 00px;
+   
+
+}
